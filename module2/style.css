@@ -1,0 +1,142 @@
+
+*{box-sizing: border-box;
+ margin:20px;
+ padding: 0;
+ background-color: #009999;
+}
+
+
+.row {
+  width: 100%;
+}
+
+
+
+#container {
+height: 400px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+color: black;
+position: relative;
+font-family: Times;
+}
+
+
+
+/* This is the empty space box*/
+#space {
+background-color: #e6ffff;
+position: absolute;
+top: 0;
+left: 0;
+width: 60%;
+height: 35px;
+border: 1px solid black;
+border-right: 0;
+border-bottom:0;
+ 
+}   
+
+
+/* Those are the section titles*/
+#p1 {
+background-color: #cccccc;
+position: absolute;
+padding: 3px;
+top: 0;
+right: 0;
+width: 40%;
+height: 35px;
+border: 1px solid black;
+text-align: center;
+font-family: sans-serif;
+font-size: 125%;
+}
+
+
+
+
+#p2 {
+background-color: #80b3ff;
+position: absolute;
+padding: 3px;
+top: 0;
+right: 0px;
+width: 40%;
+height: 35px;
+border: 1px solid black;
+text-align: center;
+font-family: sans-serif;
+font-size: 125%
+}
+
+  
+/* This last section title is actually a button to a link*/
+a:link, a:visited {
+background-color: #ff1a1a;
+position: absolute;
+padding: 3px;
+top: 0;
+right: 0;
+width: 60%;
+height: 35px;
+border: 1px solid black;
+text-align: center;
+font-family: sans-serif;
+font-size: 125%
+}
+a:hover, a:active {
+  background-color: #990000;
+  color: black;
+  font-family: sans-serif;
+font-size: 125%
+}
+  
+/* This is the text box*/
+#texto {
+background-color: #e6ffff;
+position: absolute;
+padding: 5px;
+top: 35px;
+left: 0;
+border: 1px solid black;
+border-top: 0;
+ font-family: helvetica;
+}   
+
+
+/* This is the format of the lists*/
+ul,li{
+background-color: #e6ffff;
+font-family: helvetica;
+
+}   
+
+
+/* Responsive framwork for large devices*/
+@media (min-width: 992px)   
+{.col-lg-4 
+	{width: 33.33%;
+	float: left;}   
+}
+
+
+/* Responsive framwork for medium devices*/
+@media (min-width: 768px) and (max-width: 991px) 
+ {.col-md-6 
+	{width: 50%;
+		float: left;}  
+.col-md-12 
+	{width: 100%;
+		float: left;}    
+	}   
+
+
+h1 { text-align: center;
+font-family: cursive;
+font-size: 175%; }
+
+
+/* Extra: image*/
+
